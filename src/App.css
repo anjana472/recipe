@@ -27,6 +27,61 @@
 .App-link {
   color: #61dafb;
 }
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-item {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.recipe-item img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe-item h2 {
+  font-size: 1.2em;
+  margin: 10px;
+}
 
 @keyframes App-logo-spin {
   from {
